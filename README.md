@@ -106,6 +106,47 @@
    ```
    
 5.学习CSS
+```CSS
+@charset "utf-8";
+@namespace svg url(http://www.w3.org/2000/svg);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+pre {
+  font: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; /*for ie*/
+}
+textarea {
+  font: inherit;
+  resize: none; /*no zooming*/
+}
+
+```
    * 进行中……
 
 6.学习JavaScript
